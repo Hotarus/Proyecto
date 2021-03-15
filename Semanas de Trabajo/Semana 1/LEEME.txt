@@ -1,1 +1,1 @@
-pRUEBA
+Aqui se encuentran toda la documentacion correspondiente a la semana 1 de desarrollo , el archivo final sintetizado se encuentra en la rama "main" como "PRIMER AVANCE PROYECTO FINAL"
