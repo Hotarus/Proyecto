@@ -7,6 +7,10 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 
 
 UPDATE 28/03/2021
+
 -Se añadió una nueva funcionalidad llamada "reporte" a la documentación.
+
 -En el planteamiento se corrigieron los modelos de base de datos.
+
 -Se añadió una carpeta llamada "registro de datos" que tiene los archivos csv para la base de datos.
+
