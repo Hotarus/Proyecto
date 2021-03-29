@@ -1,0 +1,10 @@
+1;XM-01-BN46;Segunda;A1;4000 mAh de capacidad;bateria
+2;Helio G90T;Primera;A1;Mediatek Helio G90T;procesador
+3;2C03F07;Segunda;B1;modelo en C;pinCarga
+4;3KJS78;Segunda;C1;Conector de audio 3.5 mm;pinAudifono
+5;Android 10;Primera;B1;MIUI V12;sistemaOperativo
+6;3C18F23;Tercera;A1;13 MP, f/2.0, 1080p, HDR;camaraFrontal
+7;3C13;Tercera;B1;Cuádruple, 48 MP (f/1.8, ;camaraPosterior
+8;MPU-6KG;Tercera;C1;2.7V a 3.6 V 6.8 mA;giroscopio
+9;MPU-6KA;Tercera;D1;2.7V a 3.6 V 6.8 mA;acelerometro
+10;SDM660;Primera;A2;Snapdragon 665 2GHz;procesador
