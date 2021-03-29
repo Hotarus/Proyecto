@@ -1,1 +1,6 @@
 Aqui se encuentran toda la documentacion correspondiente a la semana 1 de desarrollo , el archivo final sintetizado se encuentra en la rama "main" como "PRIMER AVANCE PROYECTO FINAL"
+
+UPDATE 28/03/2021
+
+-Se añadió una nueva funcionalidad llamada "Reporte"
+-Se alteró los modelos de bases de datos para que tengan concordancia con la nueva funcionalidad.
