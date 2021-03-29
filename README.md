@@ -10,6 +10,8 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 
 -Se añadió una nueva funcionalidad llamada "reporte" a la documentación.
 
+-Se corrigió la documentacion del PRIMER AVANCE debido al punto anterior.
+
 -En el planteamiento se corrigieron los modelos de base de datos.
 
 -Se añadió una carpeta llamada "registro de datos" en la rama de planteamiento que tiene los archivos csv para la base de datos.
