@@ -16,5 +16,7 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 
 -Se añadió la version 1.0 del programa en la rama de "Semanas 2 y 3"
 
+-Se añadió la maquetacion de cada ventana en la rama de "Semanas 2 y 3"
+
 -Se añadió la documentacion del segundo avance en la rama "main"
 
