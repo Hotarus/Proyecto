@@ -1,4 +1,4 @@
-# Proyecto
+# Proyecto Desarrollo de apliciones SI
 Sistema para le gestión de construcción de celulares.
 
 En esta rama se subiran todos los archivos sintetizados de documentación y codificacion.
@@ -21,4 +21,9 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 -Se añadió la maquetacion de cada ventana en la rama de "Semanas 2 y 3"
 
 -Se añadió la documentacion del segundo avance en la rama "main"
+
+
+## UPDATE **** EN PROCESO
+
+-Se añadieron los casos de uso en la rama "Semanas 3 y 4"
 
