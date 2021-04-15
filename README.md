@@ -1,4 +1,4 @@
-# Proyecto Desarrollo de apliciones SI
+# Proyecto Desarrollo de apliciones SI -GRUPO 3
 Sistema para le gestión de construcción de celulares.
 
 En esta rama se subiran todos los archivos sintetizados de documentación y codificacion.
