@@ -23,7 +23,11 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 -Se añadió la documentacion del segundo avance en la rama "main"
 
 
-## UPDATE **** EN PROCESO
+## UPDATE 18/04/2021
 
--Se añadieron los casos de uso en la rama "Semanas 3 y 4"
+-Se añadieron los casos de uso en la rama "Semanas 4 y 5"
+
+-Se añadio la version 1.0 con todas las funcionalidades CRUD.
+
+-Se añadio en la rama "main" el avance 2 del proyecto final (terminado)
 
