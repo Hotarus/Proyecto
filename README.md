@@ -31,3 +31,9 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 
 -Se añadio en la rama "main" el avance 2 del proyecto final (terminado)
 
+
+## UPDATE 27/04/2021
+
+-Se añadió el Micro Avance 1 en la semana 6
+
+-Se actualizó la version 1.0 con la generación de reportes generales.
