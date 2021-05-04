@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="28cc7f07-80cc-453b-af45-f1497d35e9f4">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<parameter name="Parametro" class="java.lang.String"/>
+	<field name="ID" class="java.lang.String"/>
+	<field name="dimenciones" class="java.lang.String"/>
+	<field name="bateria" class="java.lang.String"/>
+	<field name="procesador" class="java.lang.String"/>
+	<field name="pinCarga" class="java.lang.String"/>
+	<field name="SO" class="java.lang.String"/>
+	<field name="detalles" class="java.lang.String"/>
+	<field name="pinAudifonos" class="java.lang.String"/>
+	<field name="camaraFrontal" class="java.lang.String"/>
+	<field name="camaraPosterior" class="java.lang.String"/>
+	<field name="giroscopio" class="java.lang.String"/>
+	<field name="acelerometro" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="110" splitType="Stretch">
+			<image>
+				<reportElement uuid="fabc0eb0-0149-438b-baea-21f4a950ecf3" x="275" y="0" width="300" height="64"/>
+				<imageExpression><![CDATA[this.getClass().getResource("/Reportes/leaf_banner_gray.png")]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="f54f6b44-2fde-4092-a571-c87af245fcde" style="Title" x="0" y="13" width="263" height="33"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Hotarus]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="18b7304c-70c3-46fc-a7e9-eebadcbd0798" style="SubTitle" x="13" y="46" width="261" height="22"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Reporte por parámetro de diseño]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="6910c854-e3f4-48ff-9dc9-e808d0c3f43a" x="86" y="90" width="100" height="20"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parametro}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="56740c5a-31b4-4789-a15f-649ea7015c2d" x="13" y="90" width="73" height="20" forecolor="#3300FF"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Parámetro:]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="84fbf2d3-96ed-438e-80bd-3a2eb5dd17a3" x="0" y="0" width="44" height="20"/>
+				<textElement/>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="33b5fd50-c5f6-41f2-9ec6-195cd88d6141" x="44" y="0" width="142" height="20"/>
+				<textElement/>
+				<text><![CDATA[Dimensiones]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="59a9e42c-dde8-448f-aad7-b614697cdaad" x="186" y="0" width="57" height="20"/>
+				<textElement/>
+				<text><![CDATA[Baterìa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b066e9d7-efb0-49ee-a02a-03558d2c63c9" x="243" y="0" width="77" height="20"/>
+				<textElement/>
+				<text><![CDATA[Procesador]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f579bd59-f5a8-4a1b-a86b-ea611f9a41a0" x="322" y="0" width="78" height="20"/>
+				<textElement/>
+				<text><![CDATA[Pin de Carga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="26c72a51-29ce-486b-a990-50d7bedbe845" x="400" y="0" width="95" height="20"/>
+				<textElement/>
+				<text><![CDATA[Sistema Operativo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a0ab239d-6234-4c68-a391-e1f152e3cf22" x="495" y="0" width="60" height="20"/>
+				<textElement/>
+				<text><![CDATA[Detalles]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="96" splitType="Stretch">
+			<line>
+				<reportElement uuid="3b00b7d9-57b9-456c-a532-c27133fe4139" positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement uuid="60895b6f-d933-46dc-ad33-e6eac22bbea7" x="0" y="20" width="44" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="de2ec32c-5052-49bc-896c-0121c9d43750" x="44" y="20" width="142" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{dimenciones}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="baf4cd43-3255-40b6-9465-d298ec751f24" x="186" y="20" width="57" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{bateria}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="703ad804-e2f4-48d9-92da-51abc769e4d6" x="243" y="20" width="77" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{procesador}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="835f55dc-77df-49b4-a320-1eb47b7c5d19" x="320" y="20" width="78" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{pinCarga}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b77e29af-3349-4f5d-8d08-847448ffd102" x="398" y="20" width="95" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{SO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5b9ae5ee-9e98-481e-81c2-0ffd06a60f04" x="493" y="20" width="62" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{detalles}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement uuid="5c857f06-858c-46e6-adf3-cd489e46e30b" positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement uuid="8e5c058d-74c2-4aba-9628-0b4e56810d8c" style="Column header" x="433" y="0" width="80" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="241379a5-afff-49d1-9c94-fb559ae859a8" style="Column header" x="513" y="0" width="40" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="dbefc465-c789-4f8b-85bf-8a90c388cc7c" style="Column header" x="0" y="0" width="197" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
