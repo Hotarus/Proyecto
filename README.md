@@ -14,3 +14,7 @@ Cada avance del proyecto corresponde a una rama dentro de semanas
 -Semana 6- Micro Avance 1
 
 -Semana 7- Micro avance 2
+
+-Semana 8 - Micro avance 3
+
+-Semana 9 - Capacitacion de usuarios
