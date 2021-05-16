@@ -12,3 +12,5 @@ Cada avance del proyecto corresponde a una rama dentro de semanas
 -Semana 4 y 5-------SEGUNDO AVANCE 2 (Avance total) 
 
 -Semana 6- Micro Avance 1
+
+-Semana 7- Micro avance 2
