@@ -44,3 +44,10 @@ Cada documentacion de avance corresponde a una o varias semanas, las cuales se e
 -Se añadio el Micro Avance 2 en la seman 7
 
 -Se actualizó la version 1.0 con la generación de reportes por parámetros.
+
+
+## UPDATE 16/05/2021
+
+-Se añadio el Micro Avance 3 en la semana 8
+
+-Se añadio la documentacion de capacitacion de usuarios en la semana 9
